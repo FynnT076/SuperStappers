@@ -7,3 +7,25 @@
     height: 100px;
     width: 100%;
 }
+#details{
+    width: 90%;
+    height: 400px;
+    /* display: inline-block; */
+    margin-left: 5%;
+    background-color: aqua;
+    
+}
+.det-cont{
+    margin-left: 15px;
+
+}
+#details>.det-cont>p{
+    margin-left: 5px;
+
+    display: inline-block;
+}
+.GLInd{
+
+    font:larger;
+    font-size: x-large;
+}
