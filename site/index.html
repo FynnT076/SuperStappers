@@ -10,16 +10,21 @@
 </head>
 
 <body>
-
+    <!-- 
+        python -m http.server 3000
+     -->
 
 
 
     <div id="details">
         <div class="det-cont">
             <h1>Daltontaak Economie HV3 Orion</h1>
-            <p class="GLInd">Door: </p><p> Fynn Teurlings, Sara de Poter, Bronte van Asselt, Onno van der Linden en Liam Nouws</p> <br>
-            <p class="GLInd">Docent: </p><p> Meneer Gerard Bezem</p><br>
-            <p class="GLInd">Datum van inleveren: </p><p id="DatePar">Error: Could not load data</p><br>
+            <p class="GLInd">Door: </p>
+            <p> Fynn Teurlings, Sara de Poter, Bronte van Asselt, Onno van der Linden en Liam Nouws</p> <br>
+            <p class="GLInd">Docent: </p>
+            <p> Meneer Gerard Bezem</p><br>
+            <p class="GLInd">Datum van inleveren: </p>
+            <p id="DatePar">Error: Could not load data</p><br>
         </div>
     </div>
 
@@ -27,13 +32,18 @@
 
 </body>
 <script>
-    const inleverDatum = "(Nog) niet ingeleverd"
+    var inleverDatum = "(Nog) niet ingeleverd";
     function newContent(handInDate) {
-        const textField = document.getElementById("DatePar");
-        var newContent = "Ingeleverd op " + inleverDatum + "." + " "+ dateAgo + " days ago";
-        if (inleverDatum = "(Nog) niet ingeleverd") textField.innerText = newContent;
-        else textField.innerText = newContent;
-    } 
-    newContent(handInDate=inleverDatum)
+        var textField = document.getElementById("DatePar");
+        var newContent = "Ingeleverd op " + handInDate + ".";
+        if (handInDate == "(Nog) niet ingeleverd") {
+            return textField.innerHTML = handInDate;
+        }
+        else {
+            return textField.innerHTML = newContent
+        };
+    }
+    newContent(handInDate = inleverDatum)
 </script>
+
 </html>
