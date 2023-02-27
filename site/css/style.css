@@ -23,7 +23,7 @@
 
 }
 
-#BedrijfNaamDet {
+/* #BedrijfNaamDet {
     background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
     text-align: center;
     background-size: 800% 800%;
@@ -45,7 +45,7 @@
     0%{background-position:0% 50%}
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
-}
+} */
 
 #details>.det-cont>p {
     margin-left: 5px;
