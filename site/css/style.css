@@ -1,31 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#navbar{
+
+#navbar {
     background-color: gainsboro;
     height: 100px;
     width: 100%;
 }
-#details{
+
+#details {
     width: 90%;
     height: 400px;
     /* display: inline-block; */
     margin-left: 5%;
     background-color: aqua;
-    
+
 }
-.det-cont{
+
+.det-cont {
     margin-left: 15px;
 
 }
-#details>.det-cont>p{
+
+#BedrijfNaamDet {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    animation: rainbow 8s ease infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rainbow;
+}
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+#details>.det-cont>p {
     margin-left: 5px;
 
     display: inline-block;
 }
-.GLInd{
 
-    font:larger;
+.GLInd {
+
+    font: larger;
     font-size: x-large;
 }
