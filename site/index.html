@@ -19,12 +19,21 @@
             <h1>Daltontaak Economie HV3 Orion</h1>
             <p class="GLInd">Door: </p><p> Fynn Teurlings, Sara de Poter, Bronte van Asselt, Onno van der Linden en Liam Nouws</p> <br>
             <p class="GLInd">Docent: </p><p> Meneer Gerard Bezem</p><br>
-            <p class="GLInd">Datum van inleveren: </p><p>{Date.current.timezone(UTC+1).format(string)}</p><br>
+            <p class="GLInd">Datum van inleveren: </p><p id="DatePar">Error: Could not load data</p><br>
         </div>
     </div>
 
     <a href="./home.html"><button>Ga naar onze site</button></a>
 
 </body>
-
+<script>
+    const inleverDatum = "(Nog) niet ingeleverd"
+    function newContent(handInDate) {
+        const textField = document.getElementById("DatePar");
+        var newContent = "Ingeleverd op " + inleverDatum + "." + " "+ dateAgo + " days ago";
+        if (inleverDatum = "(Nog) niet ingeleverd") textField.innerText = newContent;
+        else textField.innerText = newContent;
+    } 
+    newContent(handInDate=inleverDatum)
+</script>
 </html>
