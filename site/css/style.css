@@ -7,22 +7,24 @@
     background-color: gainsboro;
     height: 100px;
     width: 100%;
+    margin-left: 5px;
+    display: inline-block;
 }
-
+/* #region details*/
 #details {
     width: 90%;
     height: 400px;
     /* display: inline-block; */
     margin-left: 5%;
-    background-color: rgb(229, 132, 88);
+    background-color: rgb(82, 219, 119);
+    border: 6px solid #88dcf7;
+    border-radius: 8px;
 
 }
-
 .det-cont {
     margin-left: 15px;
 
 }
-
 /* #BedrijfNaamDet {
     background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
     text-align: center;
@@ -46,10 +48,8 @@
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 } */
-
 #details>.det-cont>p {
     margin-left: 5px;
-
     display: inline-block;
 }
 
@@ -58,3 +58,4 @@
     font: larger;
     font-size: x-large;
 }
+/* #endregion details*/
