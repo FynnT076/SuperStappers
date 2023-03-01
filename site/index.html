@@ -7,39 +7,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index | Superstappers </title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <style>
+    body {
+        background-color: black;
+    }
 
-#BedrijfNaamDet {
-    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
-    text-align: center;
-    background-size: 800% 800%;
-    background-clip: unset;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 24px;
-    animation: rainbow 8s ease infinite;
-    animation-duration: 8s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: rainbow;
-}
-@keyframes rainbow { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 25%}
-    100%{background-position:0% 50%}
-}
+    #BedrijfNaamDet {
+        background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+        text-align: center;
+        background-size: 800% 800%;
+        background-clip: unset;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 24px;
+        animation: rainbow 8s ease infinite;
+        animation-duration: 8s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: rainbow;
+    }
+
+    @keyframes rainbow {
+        0% {
+            background-position: 0% 50%
+        }
+
+        50% {
+            background-position: 100% 25%
+        }
+
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    .toSiteBTN {
+        width: 80%;
+        margin-left: 10%;
+        height: 40px;
+        color: greenyellow;
+        background-color: hsl(0, 0%, 18%);
+        border-color: black;
+
+    }
+    button.toSiteBTN:hover{
+        cursor: pointer;
+        width: 80%;
+        margin-left: 10%;
+        height: 40px;
+        color: greenyellow;
+        background-color: hsl(0, 0%, 33%);
+        border-color: black;
+    }
 </style>
+
 <body>
     <!-- 
         python -m http.server 3000
      -->
-
-
 
     <div id="details">
         <div class="det-cont">
@@ -54,11 +85,17 @@
             <p> Meneer Gerard Bezem</p><br>
             <p class="GLInd">Datum van inleveren: </p>
             <p id="DatePar">Error: Could not load data</p><br>
-            <p class="GLInd">Opdracht: </p> <a href="./Daltontaak_eigen_bedrijf.pdf"><button>Opdracht bekijken</button></a>
+            <p class="GLInd">Opdracht: </p> <a href="./Daltontaak_eigen_bedrijf.pdf"><button>Opdracht
+                    bekijken</button></a> <br>
+            <p class="GLInd"><i class="bi bi-github"></i> </p>
+            <p> <a href="https://github.com/FynnT076/SuperStappers">Github repo/source code</a>
+            </p> <br>
+
         </div>
     </div>
 
-    <a href="./home.html"><button>Ga naar onze site</button></a>
+    <a href="./home.html"><button class="toSiteBTN">Ga
+            naar onze site</button></a>
 
 </body>
 <script>
