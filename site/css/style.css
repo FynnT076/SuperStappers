@@ -10,6 +10,15 @@
     margin-left: 5px;
     display: inline-block;
 }
+#navbar>a, #navbar>a>i{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    padding-right: 10px;
+}
+#navbar>a:hover{
+    color: rgb(36, 36, 36);
+}
 /* #region details*/
 #details {
     width: 90%;
