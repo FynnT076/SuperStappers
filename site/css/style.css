@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* #region navbar*/
+
 #navbar {
     background-color: gainsboro;
     height: 100px;
@@ -19,13 +21,14 @@
     color: black;
     font-size: xx-large;
     /* padding-right: 10px; */
-    margin-right: calc(100%/7);
-    margin-left: 5px;
+    margin: auto;
 }
 
 #navbar>a:hover {
     color: rgb(36, 36, 36);
 }
+
+/* #endregion navbar*/
 
 /* #region details*/
 #details {
@@ -79,6 +82,7 @@
 }
 
 /* #endregion details*/
+
 /* #region contact*/
 div.contact {
     width: 80%;
@@ -107,6 +111,7 @@ div.contact-items {
 }
 
 /*#endregion contact*/
+
 /*#region aboutus*/
 
 div.AboutUs {
@@ -121,15 +126,39 @@ div.AboutUs {
 
 }
 
+/*#region functions*/
+div.Functions {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+
+}
+
+div.FunctionDiv {
+    width: 20%;
+}
+
+h4.function-name,
+p.function-function {
+    text-align: center;
+}
+
+p.function-function {
+    font-style: italic;
+}
+
+/*#endregion functions*/
+
 /*#endregion aboutus*/
 
-
 /*#region faq*/
-.faq{
+.faq {
     width: 90%;
     margin: auto;
     height: calc(auto+40px);
 }
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -153,4 +182,5 @@ div.AboutUs {
     display: none;
     overflow: hidden;
 }
+
 /*#endregion faq*/
