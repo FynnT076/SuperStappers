@@ -88,14 +88,16 @@ div.contact {
     background-color: lightgray;
     border: 4px solid whitesmoke;
     border-radius: 15px;
+    padding-left:15px;
+
 }
 
 div.contact-items {
 
     font-size: large;
     padding: 10px;
-    margin-right:15px;
-    
+    margin-left:15px;
+
 }
 
 .contact-a {
