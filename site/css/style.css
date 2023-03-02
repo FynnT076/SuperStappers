@@ -88,7 +88,7 @@ div.contact {
     background-color: lightgray;
     border: 4px solid whitesmoke;
     border-radius: 15px;
-    padding-left:15px;
+    padding-left: 15px;
 
 }
 
@@ -96,7 +96,7 @@ div.contact-items {
 
     font-size: large;
     padding: 10px;
-    margin-left:15px;
+    margin-left: 15px;
 
 }
 
@@ -107,3 +107,50 @@ div.contact-items {
 }
 
 /*#endregion contact*/
+/*#region aboutus*/
+
+div.AboutUs {
+    width: 80%;
+    display: flexbox;
+    margin: auto;
+    height: 60%;
+    background-color: lightgray;
+    border: 4px solid whitesmoke;
+    border-radius: 15px;
+    padding-left: 15px;
+
+}
+
+/*#endregion aboutus*/
+
+
+/*#region faq*/
+.faq{
+    width: 90%;
+    margin: auto;
+    height: calc(auto+40px);
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+/*#endregion faq*/
