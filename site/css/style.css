@@ -149,7 +149,7 @@ div.AboutUs {
 
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: rgb(249, 249, 249);
     display: none;
     overflow: hidden;
 }
