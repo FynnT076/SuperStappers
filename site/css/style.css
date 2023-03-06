@@ -184,3 +184,13 @@ p.function-function {
 }
 
 /*#endregion faq*/
+
+
+/*#region shop*/
+div.shop{
+    background-color: rgb(16, 16, 16);
+    width: 90%;
+    margin: auto;
+    height: 500px;
+}
+/*#endregion shop*/
