@@ -193,4 +193,15 @@ div.shop{
     margin: auto;
     height: 500px;
 }
+img#schoenen, img#schoenen2{
+    width: 300px;
+    height: auto;
+}
+div.shop-imgs{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin: auto; */
+    width: 100%;
+    height: 100%;
+}
 /*#endregion shop*/
