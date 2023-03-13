@@ -198,10 +198,16 @@ img#schoenen, img#schoenen2{
     height: auto;
 }
 div.shop-imgs{
-    margin-top: auto;
-    margin-bottom: auto;
-    /* margin: auto; */
+    margin: auto;
     width: 100%;
     height: 100%;
+    
+}
+#schoenen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
 }
 /*#endregion shop*/
