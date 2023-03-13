@@ -194,9 +194,9 @@ div.shop {
     height: 500px;
 }
 
-img#schoenen,
-img#schoenen2 {
-    width: 300px;
+
+img#schoenen{
+    width: 400px;
     height: auto;
 }
 
