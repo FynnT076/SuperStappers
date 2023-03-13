@@ -187,40 +187,50 @@ p.function-function {
 
 
 /*#region shop*/
-div.shop{
+div.shop {
     background-color: rgb(16, 16, 16);
     width: 90%;
     margin: auto;
     height: 500px;
 }
-img#schoenen, img#schoenen2{
+
+img#schoenen,
+img#schoenen2 {
     width: 300px;
     height: auto;
 }
-div.shop-imgs{
+
+div.shop-imgs {
     margin: auto;
     width: 100%;
     height: 100%;
-     
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-#schoenen{
+
+#schoenen {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
     height: auto;
 }
-.shop-options{
+
+.shop-options {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.shop-options>a{
+
+.shop-options>a {
     margin: auto;
 }
 
-.ShopKnop{
+.ShopKnop {
     text-decoration: none;
     font-weight: bolder;
     border: 2px solid #444;
