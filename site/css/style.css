@@ -185,7 +185,6 @@ p.function-function {
 
 /*#endregion faq*/
 
-
 /*#region shop*/
 div.shop {
     background-color: rgb(16, 16, 16);
@@ -243,7 +242,7 @@ div.shop-imgs {
 /* #region customshoes*/
 div.CuSh {
     width: 80%;
-    height: 1000px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: hsl(0, 0%, 53%);
