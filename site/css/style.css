@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 /* #region navbar*/
 
 #navbar {
@@ -29,6 +31,46 @@
 }
 
 /* #endregion navbar*/
+
+/* #region home*/
+div.HomeInfo {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 73%);
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+    
+}
+
+div#HomeBanner {
+    width: 100%;
+    height: 600px;
+    background-color: #858585;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#HomeBanner>img {
+    height: 580px;
+     width: auto;
+    /* margin: auto; 
+
+    display: block; */
+
+}
+
+div#HomeBanner>img:hover {
+    height: 590px;
+    width: auto;
+}
+
+
+/* #endregion home*/
 
 /* #region details*/
 #details {
@@ -247,7 +289,8 @@ div.CuSh {
     margin-right: auto;
     background-color: hsl(0, 0%, 53%);
 }
-div.CuShIMG{
+
+div.CuShIMG {
     margin-top: 30px;
 
 }
