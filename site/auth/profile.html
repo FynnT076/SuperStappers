@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
 </head>
+
 <body>
 
     <nav id="navbar">
@@ -20,8 +22,19 @@
         <a href="../faq.html"><i class="bi bi-question"></i></a>
         <a href="../css/style.css">css</a>
     </nav>
+    <h1 style="text-align: center;">Helaas is de account-pagina niet beschikbaar. U wordt teruggestuurd naar de
+        homepagina</h1>
 
 
 </body>
+<script>
+    window.onload = function redirectHome() {
+        var time = 3.5 * 1000;
+        setTimeout(() => {
+            window.location.href = "../home.html"
+        }, time);
+    }
+</script>
+
 </html>
 <!-- https://gist.github.com/jgravois/5e73b56fa7756fd00b89 -->

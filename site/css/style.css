@@ -243,7 +243,7 @@ div.shop-imgs {
 /* #region customshoes*/
 div.CuSh {
     width: 80%;
-    height: 600px;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: hsl(0, 0%, 53%);
@@ -257,7 +257,7 @@ div.CuShIMG{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
     height: auto;
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,43 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
 </head>
+
 <body>
+    <style>
+        #BedrijfNaamDet {
+            background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+            background-size: 800% 800%;
+            background-clip: unset;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 24px;
+            animation: rainbow 8s ease infinite;
+            animation-duration: 8s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-fill-mode: none;
+            animation-play-state: running;
+            animation-name: rainbow;
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 50%
+            }
+
+            50% {
+                background-position: 80% 25%
+            }
+
+            100% {
+                background-position: 0% 50%
+            }
+        }
+    </style>
     <script>
-        
+
     </script>
     <nav id="navbar">
         <a href="home.html"><i class="bi bi-house"></i></a>
@@ -21,9 +56,17 @@
         <a href="about.html"><i class="bi bi-info"></i></a>
         <a href="faq.html"><i class="bi bi-question"></i></a>
     </nav>
-    <a href="css/style.css">css</a>
+
+
+    <br><br>
+    <h1 style="text-align: center;">Welkom bij <span style="font-size: xx-large;" id="BedrijfNaamDet">Superstappers</span></h1> 
+    <div class="HomeInfo">
+        <p>Ben jij opzoek naar jouw <span style="font-weight: bold;"></span></p>
+    </div>
+
 
 
 </body>
+
 </html>
 <!-- https://gist.github.com/jgravois/5e73b56fa7756fd00b89 -->
