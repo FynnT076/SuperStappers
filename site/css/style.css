@@ -195,7 +195,7 @@ div.shop {
 }
 
 
-img#schoenen{
+img#schoenen {
     width: 400px;
     height: auto;
 }
@@ -239,5 +239,29 @@ div.shop-imgs {
     padding: 5px;
 
 }
+
+/* #region customshoes*/
+div.CuSh {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 53%);
+}
+div.CuShIMG{
+    margin-top: 30px;
+
+}
+
+#shoesPartIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+/* #endregion customshoes*/
+
 
 /*#endregion shop*/
