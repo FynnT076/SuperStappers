@@ -52,8 +52,9 @@
         margin-left: 10%;
         height: 40px;
         color: greenyellow;
-        background-color: hsl(0, 0%, 18%);
+        background-color: hsl(0, 0%, 32%);
         border-color: black;
+        font-weight: bolder;
 
     }
 
@@ -63,7 +64,7 @@
         margin-left: 10%;
         height: 40px;
         color: greenyellow;
-        background-color: hsl(0, 0%, 33%);
+        background-color: hsl(0, 0%, 64%);
         border-color: black;
     }
 </style>
@@ -86,16 +87,16 @@
             <p> Meneer Gerard Bezem</p><br>
             <p class="GLInd">Datum van inleveren: </p>
             <p id="DatePar">Error: Could not load data</p><br>
-            <p class="GLInd">Opdracht: </p> <a href="./Daltontaak_eigen_bedrijf.pdf"><button>Opdracht
+            <p class="GLInd">Opdracht: </p> <a href="./Daltontaak_eigen_bedrijf.pdf" target="_blank"><button>Opdracht
                     bekijken</button></a> <br>
             <p class="GLInd"><i class="bi bi-github"></i> </p>
-            <p> <a href="https://github.com/FynnT076/SuperStappers">Github repo/source code</a>
+            <p> <a href="https://github.com/FynnT076/SuperStappers" target="_blank">Github repo/source code</a>
             </p> <br>
 
         </div>
     </div>
 
-    <a href="./home.html"><button class="toSiteBTN">Ga naar site</button></a>
+    <a href="./home.html" ><button class="toSiteBTN">Ga naar site</button></a>
 
 </body>
 <script>
@@ -107,7 +108,7 @@
             return textField.innerHTML = handInDate;
         }
         else {
-            return textField.innerHTML = newContent
+            return textField.innerHTML = newContent;
         };
     }
     newContent(inleverDatum)
